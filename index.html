@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Movies Web</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">Lockless</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+                    <li class="menu-list-item"></li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="https://i.pravatar.cc/400?img=63" alt="User profile image">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <aside class="sidebar">
+        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-icon fa-solid fa-house"></i>
+        <i class="left-menu-icon fa-solid fa-users"></i>
+        <i class="left-menu-icon fa-solid fa-bookmark"></i>
+        <i class="left-menu-icon fa-solid fa-tv"></i>
+        <i class="left-menu-icon fa-solid fa-hourglass-start"></i>
+        <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
+    </aside>
+    <main class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/scarface-banner.webp');">
+                <img class="featured-title" src="/img/scarface-logo.webp" alt="Scarface Logo">
+                <p class="featured-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat facere quod
+                    pariatur deserunt rerum possimus error, incidunt ut esse dicta harum beatae. Vero rerum vitae unde
+                    cum iusto. Iure, porro!</p>
+                <button class="featured-button">WATCH NOW</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-1.webp" alt="">
+                            <span class="movie-list-item-title">Slasher</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-2.webp" alt="">
+                            <span class="movie-list-item-title">True Blood</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-3.webp" alt="">
+                            <span class="movie-list-item-title">Black Clover</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-4.webp" alt="">
+                            <span class="movie-list-item-title">Terminator 2</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-5.webp" alt="">
+                            <span class="movie-list-item-title">Estación Zombie</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-6.webp" alt="">
+                            <span class="movie-list-item-title">Zombieland</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-7.webp" alt="">
+                            <span class="movie-list-item-title">Uncharted</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-8.webp" alt="">
+                            <span class="movie-list-item-title">TWD</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-9.webp" alt="">
+                            <span class="movie-list-item-title">Fantasmas</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-10.webp" alt="">
+                            <span class="movie-list-item-title">Dexter</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="arrow fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-1.webp" alt="">
+                            <span class="movie-list-item-title">Slasher</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-2.webp" alt="">
+                            <span class="movie-list-item-title">True Blood</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-3.webp" alt="">
+                            <span class="movie-list-item-title">Black Clover</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-4.webp" alt="">
+                            <span class="movie-list-item-title">Terminator 2</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-5.webp" alt="">
+                            <span class="movie-list-item-title">Estación Zombie</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-6.webp" alt="">
+                            <span class="movie-list-item-title">Zombieland</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-7.webp" alt="">
+                            <span class="movie-list-item-title">Uncharted</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-8.webp" alt="">
+                            <span class="movie-list-item-title">TWD</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-9.webp" alt="">
+                            <span class="movie-list-item-title">Fantasmas</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-10.webp" alt="">
+                            <span class="movie-list-item-title">Dexter</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="arrow fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/brightburn-banner.webp');">
+                <img class="featured-title" src="/img/brightburn-logo.webp" alt="Scarface Logo">
+                <p class="featured-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat facere quod
+                    pariatur deserunt rerum possimus error, incidunt ut esse dicta harum beatae. Vero rerum vitae unde
+                    cum iusto. Iure, porro!</p>
+                <button class="featured-button">WATCH NOW</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-1.webp" alt="">
+                            <span class="movie-list-item-title">Slasher</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-2.webp" alt="">
+                            <span class="movie-list-item-title">True Blood</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-3.webp" alt="">
+                            <span class="movie-list-item-title">Black Clover</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-4.webp" alt="">
+                            <span class="movie-list-item-title">Terminator 2</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-5.webp" alt="">
+                            <span class="movie-list-item-title">Estación Zombie</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-6.webp" alt="">
+                            <span class="movie-list-item-title">Zombieland</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-7.webp" alt="">
+                            <span class="movie-list-item-title">Uncharted</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-8.webp" alt="">
+                            <span class="movie-list-item-title">TWD</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-9.webp" alt="">
+                            <span class="movie-list-item-title">Fantasmas</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-10.webp" alt="">
+                            <span class="movie-list-item-title">Dexter</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="arrow fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-1.webp" alt="">
+                            <span class="movie-list-item-title">Slasher</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-2.webp" alt="">
+                            <span class="movie-list-item-title">True Blood</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-3.webp" alt="">
+                            <span class="movie-list-item-title">Black Clover</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-4.webp" alt="">
+                            <span class="movie-list-item-title">Terminator 2</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-5.webp" alt="">
+                            <span class="movie-list-item-title">Estación Zombie</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-6.webp" alt="">
+                            <span class="movie-list-item-title">Zombieland</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-7.webp" alt="">
+                            <span class="movie-list-item-title">Uncharted</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-8.webp" alt="">
+                            <span class="movie-list-item-title">TWD</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-9.webp" alt="">
+                            <span class="movie-list-item-title">Fantasmas</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/movie-item-10.webp" alt="">
+                            <span class="movie-list-item-title">Dexter</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                natus
+                                hic amet optio veniam laudantium pariatur rerum iure, voluptates non aliquam
+                                consequuntur ducimus ipsum quos cumque nulla omnis debitis culpa.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="arrow fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
